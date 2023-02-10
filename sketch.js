@@ -228,6 +228,7 @@ function setupCanvas() {
     canvas.parent('canvas');
     width = canvas.width;
     height = canvas.height - 50;
+    console.log(width, height);
 }
 
 
