@@ -203,7 +203,7 @@ function showLines() {
 
 
 function setupCanvas() {
-    canvas = createCanvas(1200, 950);
+    canvas = createCanvas(displayWidth, displayHeight);
     canvas.parent('canvas');
     width = canvas.width;
     height = canvas.height-50;
